@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#mess {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: normal;
+}
+
+#images {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+#field-in-game {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.cell {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.line {
+  width: 500px;
+  border-top: 4px white solid;
+  border-radius: 10px;
+}
+
+#btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  width: 160px;
+  background-color: black;
+  color: white;
+  border: 3px white solid;
+  padding: 2px;
+  font-weight: bold;
+  font-size: 1.3em;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
